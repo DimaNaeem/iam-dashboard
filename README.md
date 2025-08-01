@@ -1,7 +1,6 @@
 # 🛡️ IAM Dashboard – Identity & Access Management System
 
-This is a Java Spring Boot-based IAM (Identity & Access Management) dashboard that demonstrates key features such as:
-
+This is a Spring Boot-based Identity & Access Management Dashboard that enables secure role-based access control. It allows admins to manage users, assign roles and permissions, and view audit logs through a user-friendly interface built with Thymeleaf
 - ✅ User and Role Management
 - ✅ Permissions assignment
 - ✅ Audit Logging
@@ -12,10 +11,12 @@ This is a Java Spring Boot-based IAM (Identity & Access Management) dashboard th
 
 ## 🚀 Features
 
-- List all users and their roles
-- Add new users and assign roles
-- View system-defined roles and their permissions
-- Maintain audit logs with timestamped actions
+- ✅ Role-Based Access Control (RBAC)
+- ✅ Add/Edit/Delete Users
+- ✅ Assign Roles & Permissions
+- ✅ Audit Logging for User Actions
+- ✅ Thymeleaf Frontend (HTML/CSS)
+- ✅ Built using MVC with Spring Boot
 
 ---
 
