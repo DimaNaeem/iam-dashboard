@@ -32,9 +32,9 @@ This is a Java Spring Boot-based IAM (Identity & Access Management) dashboard th
 
 ## 📸 Dashboard Preview
 
-| Dashboard | Users List | Audit Logs |
-|----------|------------|------------|
-| ![Dashboard](assets/screenshots/dashboard.png) | ![Users](assets/screenshots/users.png) | ![Logs](assets/screenshots/audit-logs.png) |
+| Dashboard                                             | Users List                                    | Audit Logs                                        |
+|-------------------------------------------------------|-----------------------------------------------|---------------------------------------------------|
+| ![Dashboard](iam-dashboard/screenshots/dashboard.png) | ![Users](iam-dashboard/screenshots/users.png) | ![Logs](iam-dashboard/screenshots/audit-logs.png) |
 
 > Upload screenshots to a `screenshots/` folder and commit them.
 
