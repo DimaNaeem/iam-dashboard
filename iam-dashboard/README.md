@@ -5,13 +5,13 @@ A Spring Boot IAM system to manage users, roles, permissions, and audit logs.
 ## 📸 Screenshots
 
 ### Dashboard
-![Dashboard Screenshot](assets/screenshots/dashboard.png)
+![Dashboard Screenshot](screenshots/dashboard.png)
 
 ### Users
-![Users Screenshot](assets/screenshots/users.png)
+![Users Screenshot](screenshots/users.png)
 
 ### Audit Logs
-![Audit Logs Screenshot](assets/screenshots/audit-logs.png)
+![Audit Logs Screenshot](screenshots/audit-logs.png)
 
 ## 🚀 Technologies
 - Java + Spring Boot
