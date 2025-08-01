@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Roles & Permissions</title>
+</head>
+<body>
+<h1>Roles and Their Permissions</h1>
+<table border="1">
+    <thead>
+    <tr>
+        <th>Role Name</th>
+        <th>Permissions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="role : ${roles}">
+        <td th:text="${role.name}">Role Name</td>
+        <td>
+            <ul>
+                <li th:each="perm : ${role.permissions}" th:text="${perm.name}">Permission</li>
+            </ul>
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

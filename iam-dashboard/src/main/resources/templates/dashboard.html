@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>IAM Dashboard</title>
+</head>
+<body>
+<h1>Identity & Access Management Dashboard</h1>
+
+<ul>
+    <li><a th:href="@{/users}">👥 View All Users</a></li>
+    <li><a th:href="@{/users/new}">➕ Add New User</a></li>
+    <li><a th:href="@{/roles}">📋 View Roles and Permissions</a></li>
+    <li><a th:href="@{/logs}">📜 View Audit Logs</a></li>
+</ul>
+
+</body>
+</html>

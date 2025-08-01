@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Audit Logs</title>
+</head>
+<body>
+<h1>Audit Logs</h1>
+<table border="1">
+    <thead>
+    <tr>
+        <th>Timestamp</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="log : ${logs}">
+        <td th:text="${log.timestamp}">Time</td>
+        <td th:text="${log.message}">Action</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
